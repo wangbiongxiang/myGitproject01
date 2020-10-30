@@ -1,0 +1,124 @@
+﻿/**
+ * Created by Lijianhua on 2016/7/28.
+ */
+html,
+body {
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+.login-container {
+  position: relative;
+  height: 100%;
+  min-height: 800px;
+  background: url('../images/02.jpg') no-repeat center center;
+}
+.form-box {
+  width: 380px;
+  margin: 15% auto 0 auto;
+  color: #fff;
+  z-index: 10;
+}
+.form-box .box-content {
+  margin: 0 auto;
+}
+.form-box .box-content .title {
+  width: 180px;
+  margin: 0 auto;
+  line-height: 20px;
+  height: 50px;
+}
+.form-box .box-content .title hr {
+  width: 30px;
+}
+.form-box .box-content .title span {
+  display: block;
+  width: 120px;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.form-box .box-content form {
+  background: transparent;
+  width: 100%;
+}
+.form-box .box-content form .form-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 326px;
+  padding-bottom: 60px;
+}
+.form-box .box-content form,
+.form-box .box-content form .form-content {
+  position: relative;
+}
+.form-box .box-content form:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  border-radius: 5px;
+  z-index: 0;
+}
+.form-box .box-content form .box-button {
+  text-align: center;
+}
+.form-box .box-content form .box-button .btn.dw {
+  width: 321px;
+}
+.form-box .box-content form .box-button .btn + .btn {
+  margin-left: 14px;
+}
+.form-box .box-content form .box-button .reverse {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.form-box .box-content form .box-button .reverse:hover {
+  background-color: #fff;
+  color: #4285f4;
+}
+.form-box .box-content form.form-hasVerif .form-content .form-group {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.form-box .box-content form.form-hasVerif .form-content .verification .input-group {
+  width: 200px;
+}
+.form-box .box-content form.form-hasVerif .form-content .verification .form-control-feedback {
+  left: 170px;
+  right: auto;
+}
+.form-box .box-content form.form-hasVerif .form-content .verification button {
+  width: 115px;
+}
+.form-box .box-content form.form-hasVerif .form-content .box-button {
+  margin-top: 60px;
+}
+.form-box .box-content form .form-control,
+.form-box .box-content form .input-group-addon {
+  border: 1px solid transparent;
+}
+.form-box .box-content form .input-group-addon {
+  cursor: pointer;
+  color: #666666;
+  background: #fff;
+}
+.form-box .box-content form .input-group-addon:hover {
+  color: #4285f4;
+}
+
+.form-box.login .login-box,
+.form-box.phone .phone-box,
+.form-box.reset .reset-box,
+.form-box.online .online-box {
+  display: block !important;
+}

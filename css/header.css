@@ -1,0 +1,52 @@
+﻿/**
+ * Created by Lijianhua on 16/7/25.
+ * 文档样式
+ */
+.header {
+  height: 60px;
+}
+.header img {
+  margin-top: 10px;
+}
+.header .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .col-xs-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.header .nav {
+  padding-top: 20px;
+}
+.header .nav > a,
+.header .nav div.has-child {
+  color: #fff;
+  margin-left: 50px;
+}
+.header .nav > a {
+  position: relative;
+}
+.header .nav > a:hover {
+  color: #4285f4;
+}
+.header .nav div.has-child {
+  display: inline-block;
+  cursor: pointer;
+}
+.header .nav div.has-child a {
+  color: #fff;
+}
+.header .nav div.has-child a:hover {
+  color: #4285f4;
+}
+.header .nav ul {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height ease-in-out .15s;
+  transition: height ease-in-out .15s;
+}
+.header .nav div.has-child:hover ul {
+  height: 50px;
+}

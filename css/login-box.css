@@ -1,0 +1,38 @@
+﻿/**
+ * Created by Lijianhua on 2016/7/29.
+ * login-box文档样式
+ */
+.login-box .box-content .form-content {
+  padding: 70px;
+}
+.login-box .box-content .form-content .form-group {
+  margin-bottom: 0;
+}
+.login-box .box-content .form-content .form-group:first-child {
+  margin-bottom: 40px;
+}
+.login-box .box-content .form-content .form-group [data-error=ajax] {
+  display: none;
+  font-size: 12px;
+  font-family: "Glyphicons Halflings";
+}
+.login-box .box-content .form-content .form-group [data-error=ajax]:before {
+  content: "\e603";
+}
+.login-box .box-content .form-content .form-group [data-nav=reset] {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.login-box .box-content .form-content .box-button {
+  margin-top: 0px;
+}
+.login-box .box-content .has-feedback .form-control {
+  padding-left: 42.5px;
+  padding-right: 12px;
+}
+.login-box .form-control-feedback {
+  left: 0;
+  right: auto;
+  color: #c6c7c9;
+  z-index: 4;
+}
